@@ -7,7 +7,7 @@ WORKDIR /root
 ADD https://golang.org/dl/go1.16.4.linux-amd64.tar.gz /tmp/
 ADD https://zenodo.org/record/4810483/files/orog.nc.gz /tmp/
 ADD *.sh /root/
-RUN build.sh
+RUN bash build.sh
 CMD bash run.sh
 
 
