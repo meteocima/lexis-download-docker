@@ -2,6 +2,9 @@
 
 ## arguments
 
+The container expect the following arguments, as environemtn variables:
+
+
 * START_DATE
 
 date of start of simulation
@@ -10,7 +13,11 @@ date of start of simulation
 
 Type of data to download. Can be either "RISICO" | "CONTINUUM" | "WRFDAIT" | "WRFDAFR"
 
-WEBDROPS_USER=andrea.parodi@cimafoundation.org
-WEBDROPS_PWD=*****
-```
+* WEBDROPS_USER
+
+User to autenticate with webdrops service
+
+* WEBDROPS_PWD
+
+Password to autenticate with webdrops service
 
