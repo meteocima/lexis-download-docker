@@ -11,7 +11,7 @@ date of start of simulation
 
 * DOWNLOAD_TYPE
 
-Type of data to download. Can be either "RISICO" | "CONTINUUM" | "WRFDAIT" | "WRFDAFR"
+Type of data to download. Can be either "RISICO" | "CONTINUUM" | "ADMS" | "LIMAGRAIN"
 
 * WEBDROPS_USER
 
