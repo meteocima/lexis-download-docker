@@ -1,11 +1,11 @@
 apt-get update                                                                           
-apt-get install -y libnetcdf-dev git build-essential                                     
+apt-get install -y libnetcdf-dev git build-essential cdo nco netcdf-bin
 mkdir /root/.dewetra2wrf                                                                 
 tar -C /usr/local -xzf /tmp/go1.16.4.linux-amd64.tar.gz                                  
 gunzip /tmp/orog.nc.gz                                                                   
 mv /tmp/orog.nc /root/.dewetra2wrf                                                       
 rm /tmp/go1.16.4.linux-amd64.tar.gz                                                      
-git clone -qb v1.5.0 --single-branch https://github.com/cima-lexis/lexisdn lexisdn-src                              
+git clone -qb v1.6.0 --single-branch https://github.com/cima-lexis/lexisdn lexisdn-src                              
 cd /root/lexisdn-src                                                                     
 export PATH=$PATH:/usr/local/go/bin                                                      
 go build -o /root/lexisdn ./cli                                                          
